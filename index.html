@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f6fa;
+            color: #222;
+        }
+
+        header {
+            background: #168a70;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+        }
+
+        main {
+            width: 90%;
+            max-width: 1000px;
+            margin: 40px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        main h2 {
+            text-align: center;
+            margin-bottom: 25px;
+            color: #168a70;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 14px;
+            text-align: center;
+        }
+
+        th {
+            background: #168a70;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background: #f2f6fa;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Student Information</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Student Information Table</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>City</th>
+                    <th>Department</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Ahmad</td>
+                    <td>22</td>
+                    <td>Kabul</td>
+                    <td>Computer Science</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Sara</td>
+                    <td>21</td>
+                    <td>Herat</td>
+                    <td>Business</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Omid</td>
+                    <td>23</td>
+                    <td>Mazar</td>
+                    <td>Engineering</td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>Maryam</td>
+                    <td>20</td>
+                    <td>Kandahar</td>
+                    <td>Medicine</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <p>© 2026 Student Information | My First Web Project</p>
+    </footer>
+
+</body>
+</html>
